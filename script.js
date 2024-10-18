@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Sabia que no eras tan fria! xd";
+  titleElement.innerHTML = "Sabia que aceptarias! xd";
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
@@ -46,8 +46,8 @@ function generateMessage(noCount) {
     "Dale, no seas mala.",
     "Por favor 😢? ",
     "Dale di que si :(",
-    "Lo siento de verdad 😭 ",
-    "Dale No volverá a pasar...",
+    "Lo guarde para ti 😭 ",
+    "Acepta porfisss...",
   ];
 
   const messageIndex = Math.min(noCount, messages.length - 1);
